@@ -4,8 +4,8 @@
 
 ## Folder-Ownership:
 
-- C: Ruedi
-- Java: Ruedi
-- Prolog: Ruedi
-- Scheme: Roger
-
+- ArnoldC (R. Arnold)
+- C (R. Arnold)
+- Java: (R. Arnold)
+- Prolog: (R. Arnold)
+- Scheme: (R. Diehl)
