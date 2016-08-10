@@ -4,7 +4,6 @@
 
 ## Folder-Ownership:
 
-- ArnoldC (R. Arnold)
 - C (R. Arnold)
 - Java: (R. Arnold)
 - Prolog: (R. Arnold)
