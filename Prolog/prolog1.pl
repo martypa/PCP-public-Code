@@ -5,9 +5,6 @@ bigger(elephant, horse).
 bigger(horse, dog).
 bigger(horse, sheep).
 
-peter.
-peter(tisch).
-
 is_bigger(X, Y) :- bigger(X, Y).
 is_bigger(X, Y) :- bigger(X, Z), is_bigger(Z, Y).
 
