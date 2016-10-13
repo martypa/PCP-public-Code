@@ -1,13 +1,14 @@
 ﻿
 % HSLU I, Modul PCP, ruedi.arnold@hslu.ch
 
+
 snake(snake).
 animal(snake).
 animal(horse).
 animal(dog).
 animal(elephant).
 
-likes(mary, X) :- snake(X), fail.
+likes(mary, X) :- snake(X),!, fail.
 likes(mary, X) :- animal(X).
 
 different(X, X) :- !, fail.
@@ -24,9 +25,9 @@ different_with_not(X, Y) :- not(X = Y).
 
 round(ball).
 
-great_food(mekong).
-great_food(eule).
-limited_seating(mekong).
+great_food(creaBeck).
+great_food(hug).
+limited_seating(hug).
 good_place(Restaurant) :- not(limited_seating(Restaurant)).
 
 convert(Celsius, Fahrenheit) :-
