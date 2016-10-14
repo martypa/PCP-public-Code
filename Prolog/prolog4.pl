@@ -43,6 +43,11 @@ b(2). b(3).
 c(2). c(3).
 d(4).
 
+u(1).
+u(X) :- v(X).
+u(2).
+v(_X) :- !, write("CUT").
+
 max(X, Y, X) :- X >= Y.
 max(X, Y, Y) :- X < Y.
 

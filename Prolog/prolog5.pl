@@ -25,10 +25,14 @@ different_with_not(X, Y) :- not(X = Y).
 
 round(ball).
 
+notx(P) :- P, !, fail.
+notx(_P) :- true.
+
 great_food(creaBeck).
 great_food(hug).
+great_food(mac).
 limited_seating(hug).
-good_place(Restaurant) :- not(limited_seating(Restaurant)).
+good_place(Restaurant) :- notx(limited_seating(Restaurant)).
 
 convert(Celsius, Fahrenheit) :-
 	Celsius is (Fahrenheit - 32)*5/9.
