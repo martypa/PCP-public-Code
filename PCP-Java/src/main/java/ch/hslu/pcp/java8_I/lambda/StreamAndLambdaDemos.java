@@ -21,23 +21,9 @@ import java.util.function.UnaryOperator;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 
-public class StreamTest {
-
-    public static void main(String[] args) {
-        doIntro();
-        doDemo2();
-        doDemo1();
-        // doTerminalStreamOps();
-        // doInference();
-        doInfiniteStreams();
-        
-        DemoInterface.getEight();
-        DemoInterface rdi = new DemoInterface() {};
-        rdi.getLuckyNumber();
-        capturingLambdaDemo();
-    }
+public class StreamAndLambdaDemos {
     
-    public static void doIntro() {
+    public String doIntro() {
         String result = "";
         IntStream s = IntStream.generate(() -> 5);
         Optional<String> allNames = Arrays.asList("Hansjörg", "Marc", "Roger")
@@ -45,10 +31,10 @@ public class StreamTest {
                                 .filter(name -> name.length() > 4)
                                 .reduce((a, b) -> a+", "+b);
         if (allNames.isPresent()) { result = allNames.get(); }
-        System.out.println("Hello "+result);
+        return result;
     }
     
-    public static void doDemo1() {
+    public void doDemo1() {
         
         // First example of a lambda
         MyBinaryIntOperator intLambda = (int x, int y) -> { return x+y; };
@@ -89,7 +75,7 @@ public class StreamTest {
         LongSupplier currentMillisSupplier = System::currentTimeMillis;
     }
     
-    public static void doDemo2() {
+    public void doDemo2() {
         String[] txt = { "This", "is", "a", "stream", "demo"};
         int i = Arrays.stream(txt).filter(s -> s.length() > 3)
                           .mapToInt(s -> s.length())
@@ -97,7 +83,7 @@ public class StreamTest {
         System.out.println("i = "+i);
     }
     
-    public static void doTerminalStreamOps() {
+    public void doTerminalStreamOps() {
         IntStream is = IntStream.range(0, 7)
                                 .filter(i -> i >= 3);
         is.forEach(i -> System.out.print(i + ", "));
@@ -105,14 +91,14 @@ public class StreamTest {
         int sum = is.sum(); // 2. operation: problem!!!
     }
     
-    public static void doInference() {
+    public void doInference() {
         List<Integer> ints = new ArrayList<>();
         ints.add(3);
         ints.parallelStream().map(i -> 2*i) 
             .forEach(j -> ints.add(j)); // No!
     }
     
-    public static void doInfiniteStreams() {
+    public void doInfiniteStreams() {
         long sampleSize = 1_000L;
         double sum = DoubleStream.generate(Math::random)
                                  .skip(7_000_000L)
@@ -123,7 +109,7 @@ public class StreamTest {
         
     }
     
-    public static IntFunction capturingLambdaDemo () {
+    public IntFunction capturingLambdaDemo () {
         int x = 5;
         
         DemoInterface demoInterface = new DemoInterface() {

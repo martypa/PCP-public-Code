@@ -1,8 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+* HSLU I
+* Module PCP
+* ruedi.arnold@hslu.ch
+*/
+
 package ch.hslu.pcp.java8_I.lambda;
 
 import java.util.Arrays;
@@ -15,18 +16,11 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author taarnold
- */
 public class CollectionForEachAndStreamDemoTest {
     
     public CollectionForEachAndStreamDemoTest() {
     }
     
-     /**
-     * Test of main method, of class CollectionForEachAndStreamDemo.
-     */
     @Test
     public void testMain() {
         System.out.println("main");
@@ -36,9 +30,6 @@ public class CollectionForEachAndStreamDemoTest {
         assertTrue("Main methods should run without failure.", true);
     }
 
-    /**
-     * Test of doStreamDemo method, of class CollectionForEachAndStreamDemo.
-     */
     @Test
     public void testDoStreamDemo() {
         String[] namesArray = {"Joe", "Tara", "Sue", "Tim" };
