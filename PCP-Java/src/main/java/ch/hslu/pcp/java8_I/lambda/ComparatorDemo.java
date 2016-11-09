@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Comparator;
 
-public class ComparatorTest {
+public class ComparatorDemo {
 
   public static void main(String[] args) {
    
@@ -24,9 +24,10 @@ public class ComparatorTest {
       }
     });
     
+    //TODO: add unit-tests for the following code! (Ruedi 9.11.16)
+    
     System.out.println("=== Sorted Asc SurName ===");
     for(Person p:personList){
-      p.printName();
     }
     
     // Use Lambda instead
@@ -38,19 +39,11 @@ public class ComparatorTest {
     Comparator<Person> c = (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName());
     BiToIntFunction<Person> b = (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName());
     
-    
- 
-
-    for(Person p:personList){
-      p.printName();
-    }
-    
     // Print Desc
     System.out.println("=== Sorted Desc SurName ===");
     Collections.sort(personList, (p1,  p2) -> p2.getSurName().compareTo(p1.getSurName()));
 
     for(Person p:personList){
-      p.printName();
     }
     
   }
