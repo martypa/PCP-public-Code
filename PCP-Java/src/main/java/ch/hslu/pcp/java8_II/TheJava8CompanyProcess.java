@@ -1,5 +1,5 @@
 /**
-* HSLU T&A
+* HSLU I
 * Module PCP
 * ruedi.arnold@hslu.ch
 */

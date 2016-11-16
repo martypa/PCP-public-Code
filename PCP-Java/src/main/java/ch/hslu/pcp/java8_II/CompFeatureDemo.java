@@ -1,5 +1,5 @@
 /**
-* HSLU T&A
+* HSLU I
 * Module PCP
 * ruedi.arnold@hslu.ch
 */
@@ -8,13 +8,13 @@ package ch.hslu.pcp.java8_II;
 
 import java.util.concurrent.CompletableFuture;
 
-public class CompFeatureTest {
+public class CompFeatureDemo {
 
     private static final int THREE_SECONDS = 3000;
     private static final int HALF_SECOND = 500;
 
     public static void main(String[] args) {
-        CompFeatureTest cfTest = new CompFeatureTest();
+        CompFeatureDemo cfTest = new CompFeatureDemo();
         cfTest.doCompletableFutureDemo();
     }
 
