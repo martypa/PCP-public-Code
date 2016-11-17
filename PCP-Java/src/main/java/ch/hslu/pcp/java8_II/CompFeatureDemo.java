@@ -44,7 +44,7 @@ public class CompFeatureDemo {
             System.out.print(s);
         });
         System.out.println("-> Now waiting for things to happen!");
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < 20; i++) {
             System.out.print(".");
             doBlockingWait(HALF_SECOND);
         }

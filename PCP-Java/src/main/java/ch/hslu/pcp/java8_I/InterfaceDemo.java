@@ -11,5 +11,5 @@ public class InterfaceDemo implements DemoInterface, OtherInterface {
     @Override
     public int getLuckyNumber() {
         return DemoInterface.super.getLuckyNumber();
-    }
+    } 
 }
