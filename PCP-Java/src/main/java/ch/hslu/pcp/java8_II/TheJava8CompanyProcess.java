@@ -17,7 +17,6 @@ public class TheJava8CompanyProcess {
         List<String> names = Arrays.asList("sue", "x", "joe", "Daniela", "J");
         System.out.println(tj8cp.cleanNames(names));
     }
-// BEGIN java8_process
 
     public String cleanNames(List<String> names) {
         if (names == null) {
@@ -26,7 +25,7 @@ public class TheJava8CompanyProcess {
         return names
                 .stream()
                 .filter(name -> name.length() > 1)
-                .map(name -> capitalize(name))
+                .map(this::capitalize)
                 .collect(Collectors.joining(","));
     }
 
@@ -34,8 +33,6 @@ public class TheJava8CompanyProcess {
         return e.substring(0, 1).toUpperCase() +
                 e.substring(1, e.length());
     }
-// END java8_process
-// BEGIN java8_process_parallel
 
     public String cleanNamesP(List<String> names) {
         if (names == null) {
@@ -44,8 +41,7 @@ public class TheJava8CompanyProcess {
         return names
                 .parallelStream()
                 .filter(n -> n.length() > 1)
-                .map(e -> capitalize(e))
+                .map(this::capitalize)
                 .collect(Collectors.joining(","));
     }
-// END java8_process_parallel
 }
