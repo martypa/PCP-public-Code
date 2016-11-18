@@ -25,7 +25,7 @@ public class TheCompanyProcess {
                         listOfNames.get(i))).append(",");
             }
         }
-        return result.substring(0, result.length() - 1).toString();
+        return result.substring(0, result.length() - 1);
     }
 
     private String capitalize(String s) {
