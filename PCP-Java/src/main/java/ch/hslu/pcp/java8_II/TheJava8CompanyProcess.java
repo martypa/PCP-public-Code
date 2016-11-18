@@ -34,7 +34,7 @@ public class TheJava8CompanyProcess {
                 e.substring(1, e.length());
     }
 
-    public String cleanNamesP(List<String> names) {
+    public String cleanNamesParallel(List<String> names) {
         if (names == null) {
             return "";
         }
