@@ -9,12 +9,8 @@ package ch.hslu.pcp.java8_I.lambda;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class CollectionForEachAndStreamDemoTest {
     
