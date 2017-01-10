@@ -15,7 +15,9 @@ different(X, X) :- !, fail.
 different(_X, _Y).
 
 not(P) :- P, !, fail.
-not(_P) :- true.
+not(P) :- true. % variable name _P to avoid compiler warning "Singleton Variables"
+
+singleton_test(_X) :- print(_X).
 
 likes_with_not(mary, X) :-
 	animal(X),
