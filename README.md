@@ -5,6 +5,7 @@
 ## Folder-Ownership:
 
 - C (R. Arnold)
+- Compiler (R.Diehl)
 - Java: (R. Arnold)
 - Prolog: (R. Arnold)
 - Scheme: (R. Diehl)
