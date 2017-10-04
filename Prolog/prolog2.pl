@@ -2,7 +2,7 @@
 % HSLU I, Modul PCP, ruedi.arnold@hlsu.ch
 
 word(d,o,g).	   word(r,u,n).	      word(t,o,p).
-word(f,i,v,e).     word(f,o,u,r).     word(l,o,s,t).      word(m,e,s,s).      word(u,n,i,t).
+word(f,i,v,e).     word(f,o,u,r).     word(l,o,s,t).      word(m,e,s,s).     word(u,n,i,t).
 word(b,a,k,e,r).   word(f,o,r,u,m).   word(g,r,e,e,n).    word(s,u,p,e,r).
 word(p,r,o,l,o,g). word(v,a,n,i,s,h). word(w,o,n,d,e,r).  word(y,e,l,l,o,w).
 
@@ -38,6 +38,7 @@ bigger(horse, sheep).
 is_bigger(X, Y) :- bigger(X, Y).
 is_bigger(X, Y) :- bigger(X, Z), is_bigger(Z, Y).
 
+% op(1150, xfx, is_bigger).
 
 fak(0, 1).
 fak(N, F) :-
@@ -51,7 +52,7 @@ fib(1, 1).
 fib(N, F) :-
 	N > 0,
 	N1 is N - 1,
-        N2 is N	- 2,
+    N2 is N - 2,
 	fib(N1, F1),
 	fib(N2, F2),
 	F is F1 + F2.
