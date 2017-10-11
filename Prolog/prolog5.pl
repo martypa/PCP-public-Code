@@ -15,9 +15,7 @@ different(X, X) :- !, fail.
 different(_X, _Y).
 
 not(P) :- P, !, fail.
-not(P) :- true. % variable name _P to avoid compiler warning "Singleton Variables"
-
-singleton_test(_X) :- print(_X).
+not(_P) :- true. % variable name _P to avoid compiler warning "Singleton Variables"
 
 likes_with_not(mary, X) :-
 	animal(X),
@@ -31,9 +29,8 @@ notx(P) :- P, !, fail.
 notx(_P) :- true.
 
 great_food(creaBeck).
-great_food(hug).
-great_food(mac).
-limited_seating(hug).
+great_food(novartis).
+limited_seating(novartis).
 good_place(Restaurant) :- notx(limited_seating(Restaurant)).
 
 convert(Celsius, Fahrenheit) :-
