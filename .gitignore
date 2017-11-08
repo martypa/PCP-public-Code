@@ -25,6 +25,7 @@ Java/target/
 *.iws
 *.ipr
 Java/.idea/
+Java/target/
 
 # eclipse project file
 Java/.settings/
