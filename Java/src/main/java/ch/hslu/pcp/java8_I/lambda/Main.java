@@ -9,6 +9,8 @@ public class Main {
         doRunnableTests();
         ComparatorDemo.main(args);
         ListenerTest.main(args);
+        StreamAndLambdaDemos sald = new StreamAndLambdaDemos();
+        sald.doDemo1();
     }
 
     private static void doRunnableTests() {

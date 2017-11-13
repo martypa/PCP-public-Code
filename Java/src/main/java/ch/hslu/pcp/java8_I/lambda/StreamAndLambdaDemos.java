@@ -11,15 +11,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import java.util.function.Consumer;
-import java.util.function.IntFunction;
-import java.util.function.LongSupplier;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
-import java.util.function.ToIntFunction;
-import java.util.function.UnaryOperator;
+import java.util.function.*;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class StreamAndLambdaDemos {
     
@@ -37,7 +32,7 @@ public class StreamAndLambdaDemos {
     public void doDemo1() {
         
         // First example of a lambda
-        MyBinaryIntOperator intLambda = (int x, int y) -> { return x+y; };
+        MyBinaryIntOperator intLambda = (x, y) ->  x+y ;
         
         // Before Java 8
         MyBinaryIntOperator sameIntLambdaOldSchool = new MyBinaryIntOperator() {
@@ -46,10 +41,18 @@ public class StreamAndLambdaDemos {
                 return a+b;
             }
         };
-        
+
+        int result = sameIntLambdaOldSchool.calc(Integer.MAX_VALUE, Integer.MAX_VALUE);
+
+        Stream<String> stringStream = Stream.of("a", "b", "c");
+
+        List<String> list = new ArrayList<String>();
+
+
         IntStream is = IntStream.range(10, 101);
         // is.forEach(System.out::println);
-        
+        System.out.println(" result xx = " + result);
+
         int x = IntStream.range(0, 11)
                 .filter(i -> (i % 3 == 0))
                 .map(i -> i + 1)
@@ -82,6 +85,11 @@ public class StreamAndLambdaDemos {
                           .reduce(0, (l1, l2) -> l1 + l2);
         System.out.println("i = "+i);
     }
+
+        int x = IntStream.range(0, 11)
+            .filter(i -> (i % 3 == 0))
+            .map(i -> i+1)
+            .reduce(1, (a, b) -> a*b);
     
     public void doTerminalStreamOps() {
         IntStream is = IntStream.range(0, 7)
