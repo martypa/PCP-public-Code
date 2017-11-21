@@ -9,19 +9,19 @@ ruedi.arnold@hslu.ch
 - Die 5 Methoden-Arten
 - Design-Philosophie & Aufbau einer 4D-Anwendung
 
-# Clojure
+### Clojure
 - immutability and representation of state
 - concurrency & software transactional memory
 - persistent data structures
 - the REPL
 
-# Cobol
+### Cobol
 - Datentypen & aggregierte Daten
 - Programm-Divisionen
 - Kontrollstrukturen
 - Prozeduren
 
-# Dart
+### Dart
 - Nebenläufigkeit: Isolates
 - Nebenläufigkeit: async and await
 - Nebenläufigkeit: Future API
@@ -30,34 +30,34 @@ ruedi.arnold@hslu.ch
 - Benannte Konstruktoren
 - Metadata
 
-# Eiffel
+### Eiffel
 - Design by Contract
 - Mehrfachvererbung
 - Scoping & Information hiding (features)
 - Agents
 - once-Routinen
 
-# F#
+### F#
 - Nebenläufigkeit: Aktor-Programmiermodell (Agents)
 - Funktionale Datentypen: Tupel, Records, Union, Listen & Option-Typen
 - Objektorientierung: Objekt-Ausdrücke, Typ-Test, Type-Coercion
 - Benannte & optionale Argumente
 - Metaprogrammierung
 
-# Fantom
+### Fantom
  Nebenläufigkeit: Aktoren, Futures & Chaining
 - Nullable Types
 - Alles ist ein Objekt: Operatoren sind Methodenaufrufe
 - Java FFI
 
-# Frege
+### Frege
 - ADTs & Typeclasses with parametric polymorphism
 - Function Composition
 - Pattern matching
 - List comprehension
 - Immutability
 
-# Groovy
+### Groovy
 - Groovy vs. Java (Unterschiede?)
 - Typisierung (dynamisch / statisch)
 - Operatorüberladung
@@ -67,19 +67,19 @@ ruedi.arnold@hslu.ch
 - Builder
 - Templates
 
-# Haskell
+### Haskell
 - Monaden
 - Partially Applied Functions & Currying
 - List Comprehension
 - Starke Typisierung
 
-# JavaScript
+### JavaScript
 - Prototypen-basierte Vererbung (als Bsp. für OO ohne Klassen)
 - Vergleichsoperatoren wie ===, == usw.
 - Dynamische Typisierung inkl. Duck Typing
 - Implizite und explizite Delegation (Traits & Mixins, call & apply)
 
-# Kotlin
+### Kotlin
 - Closures vs. Lambdas
 - Inline functions & reified type parameters
 - Extensions
@@ -91,45 +91,45 @@ ruedi.arnold@hslu.ch
 - Null Safety
 - Type-Safe Builders
 
-# Lua
+### Lua
 - Dynamische Typisierung
 - Vererbung: Metatables & Prototypen
 - Nebenläufigkeit: Coroutinen
 - Information Hiding & the Principle of least Privilege
 
-# ML
+### ML
 - Typen Synonyme
 - Algebraische Datentypen
 - Pattern Matching
 - Modul System
 
-# PHP
+### PHP
 - Objektorientierung & Objekt-Handles (ggf. inkl. Rückblick auf Objekte als value-types)
 - Dynamische Typisierung & Type Juggling
 - Function Prototyping
 - Closures (Anonyme Funktionen)
 - Callbacks
 
-# Python
+### Python
 - Einrückung (Indentation)
 - Typisierung & Duck Typing
 - yield-Anweisung & Generatoren (Coroutinen)
 - List comprehension
 - Monty Python's Flying Circus ;-)
 
-# Ruby
+### Ruby
 - Objektorientierung: Vererbung, Mixins und Meta-Klassen
 - Metaprogrammierung
 - Continuations
 - Sigils
 
-# Rust
+### Rust
 - Traits
 - Tasks & Communication inkl. panic!() :-)
 - Spawn & Channels
 - Patterns & Matching
 
-# Scala
+### Scala
 - Implicit parameters & conversions
 - "Spezielle" Syntax (apply, update, Methoden vs. Operatoren)
 - Companion Objects
@@ -137,12 +137,12 @@ ruedi.arnold@hslu.ch
 - Mutable and Immutable Collections
 - Futures & Promises
 
-# Scratch
+### Scratch
 - Blöcke
 - Nachrichten & Nebenläufigkeit
 - Klone (erlauben OOP)
 
-# TypeScript
+### TypeScript
 - Abgrenzung JavaScript
 - Funktionen: Optional, Default & Rest Parameter
 - Mixins
