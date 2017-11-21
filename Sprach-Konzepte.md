@@ -4,11 +4,6 @@ Dieses Dokument enthält den Vorschlag der Coaches an pro Sprache zu behandelnde
 
 Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https://elearning.hslu.ch/ilias/ilias.php?ref_id=3466986&cmd=showThreads&cmdClass=ilrepositorygui&cmdNode=t9&baseClass=ilrepositorygui).
 
-### 4D
-- Datentypen & Operatoren
-- Die 5 Methoden-Arten
-- Design-Philosophie & Aufbau einer 4D-Anwendung
-
 ### Clojure
 - immutability and representation of state
 - concurrency & software transactional memory
