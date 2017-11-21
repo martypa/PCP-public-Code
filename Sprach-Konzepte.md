@@ -1,8 +1,8 @@
-# Module "Programming Concepts & Paradigms"
+# Modul "Programming Concepts & Paradigms" (PCP)
 
-## Vorschlag Konstrukte und Konzepte pro Programmiersprache
+## Vorschlag: Konstrukte und Konzepte pro Programmiersprache.
 
-## ruedi.arnold@hslu.ch
+ruedi.arnold@hslu.ch
 
 # 4D
 - Datentypen & Operatoren
