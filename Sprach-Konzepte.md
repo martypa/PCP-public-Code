@@ -1,8 +1,8 @@
-# Modul "Programming Concepts & Paradigms" (PCP)
+# PCP: Themenvorschläge pro Programmiersprache
 
-## Vorschlag: Konstrukte und Konzepte pro Programmiersprache.
+Dieses Dokument enthält den Vorschlag der Coaches an pro Sprache zu behandelnden Themen. Bitte beachten Sie dazu die entsprechenden Infos auf dem Foliensatz "Team-Projekt-Aufgabenstellung".
 
-ruedi.arnold@hslu.ch
+Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https://elearning.hslu.ch/ilias/ilias.php?ref_id=3466986&cmd=showThreads&cmdClass=ilrepositorygui&cmdNode=t9&baseClass=ilrepositorygui).
 
 ### 4D
 - Datentypen & Operatoren
@@ -37,7 +37,7 @@ ruedi.arnold@hslu.ch
 - Agents
 - once-Routinen
 
-### F#
+### F\# 
 - Nebenläufigkeit: Aktor-Programmiermodell (Agents)
 - Funktionale Datentypen: Tupel, Records, Union, Listen & Option-Typen
 - Objektorientierung: Objekt-Ausdrücke, Typ-Test, Type-Coercion
