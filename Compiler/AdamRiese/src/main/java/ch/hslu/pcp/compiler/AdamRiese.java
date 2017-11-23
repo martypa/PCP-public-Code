@@ -24,7 +24,7 @@ import java.io.IOException;
  * Rechenoperationen sind Addition und die Multiplikation. Multiplikation hat
  * Vorrang vor Addition. Klammerausdrücke sind erlaubt.
  */
-public class AdamRiese {
+public final class AdamRiese {
 
     private int nextchar;
 
@@ -41,7 +41,7 @@ public class AdamRiese {
      * @param c zu prüfender Wert.
      * @return falls Wert zwischen 0 bis 9 ist true, sonst false.
      */
-    public boolean isDigit(int c) {
+    public boolean isDigit(final int c) {
         return c >= '0' && c <= '9';
     }
 
@@ -137,7 +137,7 @@ public class AdamRiese {
      * @throws IOException wenn ein Fehler beim Lesen von der Tastatur auftritt.
      */
     public void statement() throws IOException {
-        int value = expr();
+        final int value = expr();
         if (nextchar != '=') {
             error();
         } else {

@@ -22,7 +22,7 @@ import org.apache.logging.log4j.Logger;
 /**
  * Demo Adam Riese Programm.
  */
-public class DemoAdamRiese {
+public final class DemoAdamRiese {
 
     private static final Logger LOG = LogManager.getLogger(DemoAdamRiese.class);
 

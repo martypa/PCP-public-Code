@@ -18,7 +18,7 @@ package ch.hslu.pcp.compiler;
 /**
  * Exception, falls ein Ausdruck nicht korrekt ist.
  */
-public class SyntaxException extends RuntimeException {
+public final class SyntaxException extends RuntimeException {
 
     /**
      * Erzeugt ein SyntaxException Objekt.
