@@ -137,6 +137,14 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - Nachrichten & Nebenläufigkeit
 - Klone (erlauben OOP)
 
+### Swift
+- are classes, enums & structs equal?
+- extensions
+- pattern matching & where clause
+- subscripts
+- var, let & type inference
+- nil-safety (mandatory use of optionals)
+
 ### TypeScript
 - Abgrenzung JavaScript
 - Funktionen: Optional, Default & Rest Parameter
