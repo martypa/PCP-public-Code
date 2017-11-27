@@ -47,7 +47,7 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - Metaprogrammierung
 
 ### Fantom
- Nebenläufigkeit: Aktoren, Futures & Chaining
+- Nebenläufigkeit: Aktoren, Futures & Chaining
 - Nullable Types
 - Alles ist ein Objekt: Operatoren sind Methodenaufrufe
 - Java FFI
