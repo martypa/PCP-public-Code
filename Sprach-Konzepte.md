@@ -100,6 +100,12 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - Null Safety
 - Type-Safe Builders
 
+### LabView
+- Polymorphismus & OOP
+- Nebenläufige Programmierung
+- Endliche Automaten
+- Event-Driven-Programming
+
 ### Lua
 - Dynamische Typisierung
 - Vererbung: Metatables & Prototypen
