@@ -125,6 +125,12 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - Closures (Anonyme Funktionen)
 - Callbacks
 
+### PowerShell
+- Pipelines
+- Closures
+- Associative arrays
+- Where and ForEach
+
 ### Python
 - Einrückung (Indentation)
 - Typisierung & Duck Typing
