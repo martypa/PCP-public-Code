@@ -74,6 +74,13 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - Dynamische Typisierung inkl. Duck Typing
 - Implizite und explizite Delegation (Traits & Mixins, call & apply)
 
+### Julia
+- Functions: pass-by-sharing, optional arguments & multiple return values
+- Parallel Computing: futures & channels
+- Tasks (aka Coroutines)
+- Metaprogramming, Macros & Code Generation
+- Conversion & Promotion
+
 ### Kotlin
 - Closures vs. Lambdas
 - Inline functions & reified type parameters
