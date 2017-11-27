@@ -16,6 +16,13 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - Kontrollstrukturen
 - Prozeduren
 
+### Crystal
+- Everything is an object
+- Union types
+- Default values & named arguments
+- Blocks and Procs (yield)
+- Concurrency: Fibers & Channels
+
 ### Dart
 - Nebenläufigkeit: Isolates
 - Nebenläufigkeit: async and await
