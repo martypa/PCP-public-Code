@@ -79,6 +79,7 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - Maps & Slices
 - Structural & Nominal Typing
 - The Go Memory Model
+- Package Management
 
 ### Groovy
 - Groovy vs. Java (Unterschiede?)
