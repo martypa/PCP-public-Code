@@ -47,6 +47,12 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - Agents
 - once-Routinen
 
+### Erlang
+- Pattern Matching
+- Ports
+- Concurreny: Processes, Queues & Messages
+- Hot code loading
+
 ### F\# 
 - Nebenläufigkeit: Aktor-Programmiermodell (Agents)
 - Funktionale Datentypen: Tupel, Records, Union, Listen & Option-Typen
