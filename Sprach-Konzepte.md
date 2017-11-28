@@ -74,6 +74,12 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - List comprehension
 - Immutability
 
+### Go
+- Goroutines, Channels & Select
+- Maps & Slices
+- Structural & Nominal Typing
+- The Go Memory Model
+
 ### Groovy
 - Groovy vs. Java (Unterschiede?)
 - Typisierung (dynamisch / statisch)
