@@ -49,9 +49,10 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 
 ### Erlang
 - Pattern Matching
-- Ports
+- Data Types: Ports, Funs, Tuples, Lists, Maps
 - Concurreny: Processes, Queues & Messages
 - Hot code loading
+- Process error handling philosophy (pass or fail)
 
 ### F\# 
 - Nebenläufigkeit: Aktor-Programmiermodell (Agents)
