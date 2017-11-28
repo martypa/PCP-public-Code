@@ -138,10 +138,10 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - List comprehension
 - Monty Python's Flying Circus ;-)
 
-### Reactive (Java- /TypeScript)
-- Basics Idee: asynchronous data streams
+### Reactive (Java- / TypeScript)
+- Basics idea: asynchronous data streams
 - Observers
-- Hot vs. Cold Observables
+- Hot vs. cold observables
 - Frameworks: ReactJS, Reactor, ... ?
 
 ### Ruby
