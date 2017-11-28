@@ -23,6 +23,14 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - Blocks and Procs (yield)
 - Concurrency: Fibers & Channels
 
+### C\# 
+- Properties
+- Partial Types
+- Pattern matching
+- Ayanc & Await
+- Delegates (inkl. Co- & Contravarianz)
+- Extension Methods
+
 ### Dart
 - Nebenläufigkeit: Isolates
 - Nebenläufigkeit: async and await
