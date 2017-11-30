@@ -1,5 +1,5 @@
 // Definition der Grammatik AdamRiese
-grammar LabeledAdamRiese;
+grammar AdamRieseLabeled;
 
 // Parser-Regeln
 stmt   : expr '=' ;
