@@ -1,6 +1,7 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-beginner-reader.ss" "lang")((modname 18_rating) (read-case-sensitive #f) (teachpacks ()) (htdp-settings #(#f constructor repeating-decimal #f #t none #t () #f)))
+; Notengebung
 (define (grade score)
   (cond
     ((not (number? score)) "Zahl eingeben!")
@@ -13,3 +14,10 @@
     ((= 0 score) "nicht erfüllt")
     (else "Ganze Zahl 0 <= x <= 15 eingeben!")
     ))
+
+; Demo
+(grade 5)
+(grade 15)
+(grade 25)
+(grade 5.9)
+(grade 'abc)

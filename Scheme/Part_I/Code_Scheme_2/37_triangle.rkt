@@ -1,6 +1,6 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-beginner-reader.ss" "lang")((modname triangle) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname 37_triangle) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
 ; Dreieck mit Punkt A, B, C
 ; Eckpunkte A, B und C sind vom Typ posn
 (define-struct triangle (A B C))
@@ -35,4 +35,3 @@
 
 ; Aufruf der Schwerpunkt Funktion
 (triangular-focus my-triangle)
-
