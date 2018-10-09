@@ -36,7 +36,7 @@ good_place(Restaurant) :- notx(limited_seating(Restaurant)).
 convert(Celsius, Fahrenheit) :-
 	Celsius is (Fahrenheit - 32)*5/9.
 
-:- use_module(library(clpr)).
+?- use_module(library(clpr)).
 
 convert_clp(Celsius, Fahrenheit) :-
 	{ Celsius = (Fahrenheit - 32)*5/9 }.
@@ -57,7 +57,7 @@ fib_clp(N, F) :-
 	fib_clp(N1, F1),
 	fib_clp(N2, F2).
 
-:- use_module(library(clpfd)).
+?- use_module(library(clpfd)).
 
 send_more_money([S,E,N,D] + [M,O,R,E] = [M,O,N,E,Y]) :-
         Vars = [S,E,N,D,M,O,R,Y],

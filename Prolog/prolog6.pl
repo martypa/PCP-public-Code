@@ -1,7 +1,7 @@
 ﻿
 % HSLU I, Modul PCP, ruedi.arnold@hslu.ch
 
-:- use_module(library(clpfd)).
+?- use_module(library(clpfd)).
 
 sudoku(Rows) :-
   append(Rows, Vs), Vs ins 1..9,
