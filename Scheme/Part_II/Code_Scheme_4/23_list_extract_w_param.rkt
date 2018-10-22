@@ -1,6 +1,6 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-advanced-reader.ss" "lang")((modname list_extract_w_param) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #f)))
+#reader(lib "htdp-intermediate-reader.ss" "lang")((modname 23_list_extract_w_param) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
 ; Extrahiere aus einer Liste alle Werte die oberhalb oder unterhalb einer Grenze liegen,
 ; wobei oberhalb oder unterhalb eine Operation (rel-op) ist
 ; Resultat ist eine Liste
