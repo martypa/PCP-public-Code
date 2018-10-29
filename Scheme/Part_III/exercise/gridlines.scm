@@ -5,8 +5,8 @@
  "New gridlines"	; Menu Punkt
  "Illustrates the structure of a GIMP script" ; Beschreibung
  "Roger Diehl"          ; Autor
- "2017, HSLU - T&A"     ; Copyright Notiz
- "October 2017"         ; Erstellungsdatum
+ "2018, HSLU - I"     ; Copyright Notiz
+ "October 2018"         ; Erstellungsdatum
  ""                     ; Bild Typ des Skript - "" heisst, es muss kein Bild geladen sein
  ; aktuelle Parameter von script-fu-grid-lines
  SF-ADJUSTMENT "Image width" '(200 10 10000 1 1 0 1) ; drawable_width - default 200

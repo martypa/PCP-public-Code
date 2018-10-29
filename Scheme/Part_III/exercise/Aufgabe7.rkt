@@ -10,4 +10,3 @@
 
 ; Hinzufügen einer neuen Person in globales my-phone-dir mittels Vornamen und Nummer
 (define (add-entry name number) ())
-
