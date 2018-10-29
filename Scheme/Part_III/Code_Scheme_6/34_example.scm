@@ -4,8 +4,8 @@
   "Meldung ausgeben"	; Menu Punkt
   "Illustriert den Aufbau eines GIMP-Skripts"	; Beschreibung
   "Roger Diehl"		; Autor
-  "2017, HSLU - T&A"	; Copyright Notiz
-  "Oktober 2017"	; Erstellungsdatum
+  "2018, HSLU - I"	; Copyright Notiz
+  "Oktober 2018"	; Erstellungsdatum
   ""			; Bild Typ des Skript
   SF-STRING "Eingabe" "Hallo!") ; String Variable im Skript
 

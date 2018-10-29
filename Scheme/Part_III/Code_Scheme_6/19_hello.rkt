@@ -1,3 +1,4 @@
+; Sprachdefinition
 #lang racket
 
 ; Racket-Scheme Standard I/O-Funktionen

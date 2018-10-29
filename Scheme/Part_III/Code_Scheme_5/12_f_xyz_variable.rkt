@@ -8,3 +8,6 @@
      [define q (+ z y)])
     (+ (sqr p) (sqr q))
   ))
+
+; Demo
+(f 2 3 4)

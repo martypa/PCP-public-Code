@@ -10,6 +10,7 @@
 
 ; Funktion zum Berechnen von Quadrat-Zahlen
 (define (square x) (* x x))
+
 ; Funktion zum Berechnen von Kubik-Zahlen
 (define (cube x) (* x x x))
 

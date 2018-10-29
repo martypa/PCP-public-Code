@@ -10,4 +10,5 @@
     (+ (plus-y-sqr x) (plus-y-sqr z))))
 
 ; Demo
+(f 2 3 4)
 ;(square 2)

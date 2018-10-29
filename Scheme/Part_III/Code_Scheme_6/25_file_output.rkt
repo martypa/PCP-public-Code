@@ -1,4 +1,5 @@
 #lang racket
+
 ; Port öffnen, um in die Datei zu schreiben
 (define out (open-output-file "output.txt"))
 ; Datei-Schreiben - der Parameter ist eine Liste
