@@ -2,10 +2,10 @@
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-advanced-reader.ss" "lang")((modname 21_sum_with_next) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #f)))
 ; Funktion sum mit einer Funktion f als Parameter und next als Laufweite
-(define (sum f a next b)
-  (if (> a b)
-      0
-      (+ (f a) (sum f (next a) next b))))
+(define (sum f i next n)
+  (cond
+    [(> i n) 0]
+    [else (+ (f i) (sum f (next i) next n))]))
 
 ; Funktion zum Berechnen von Quadrat-Zahlen
 (define (square x) (* x x))
