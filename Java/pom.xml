@@ -51,7 +51,7 @@
       <group.id>pcp</group.id>
       <developer.id>taarnold</developer.id>
 
-      <project.build.targetJdk>1.8</project.build.targetJdk>
+      <project.build.targetJdk>10</project.build.targetJdk>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
 
