@@ -14,5 +14,6 @@ public class Java8_1 {
         Collection<Account> accounts;
         accounts = new ArrayList<>();
         accounts.forEach(a -> a.check());
+        accounts.forEach(Account::check);
     }
 }
