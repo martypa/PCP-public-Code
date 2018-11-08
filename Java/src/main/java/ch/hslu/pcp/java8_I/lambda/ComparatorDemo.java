@@ -34,7 +34,7 @@ public class ComparatorDemo {
     
     // Print Asc
     System.out.println("=== Sorted Asc SurName ===");
-    Collections.sort(personList, (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName()));
+    Collections.sort(personList, (p1, p2) -> p1.getSurName().compareTo(p2.getSurName()));
     
     Comparator<Person> c = (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName());
     BiToIntFunction<Person> b = (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName());
