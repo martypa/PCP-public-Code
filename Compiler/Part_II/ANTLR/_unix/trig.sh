@@ -4,4 +4,4 @@
 antlr_path="/usr/local/lib"
 
 echo "Executing Testing Recognizers..."
-java -cp .:$antlr_path/antlr-4.7-complete.jar org.antlr.v4.gui.TestRig $*
+java -cp .:$antlr_path/antlr-4.7.1-complete.jar org.antlr.v4.gui.TestRig $*

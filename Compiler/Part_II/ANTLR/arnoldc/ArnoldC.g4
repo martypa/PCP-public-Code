@@ -73,7 +73,6 @@ operation
     | AND expression                    #andop
     ;
 
-
 BEGINMAIN
     : 'IT\'S SHOWTIME'
     ;

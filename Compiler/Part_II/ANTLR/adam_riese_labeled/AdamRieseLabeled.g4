@@ -18,7 +18,6 @@ factor : number             # NumberOnly
 
 number : DIGIT* DIGIT ;
 
-
 // Lexer-Regeln
 ADD    : '+' ;
 MUL    : '*' ;

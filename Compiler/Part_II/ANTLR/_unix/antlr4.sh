@@ -4,9 +4,9 @@
 antlr_path="/usr/local/lib"
 
 echo "Generate parser and lexer using ANTLR-4..."
-java -jar $antlr_path/antlr-4.7-complete.jar $*
+java -jar $antlr_path/antlr-4.7.1-complete.jar $*
 
 if [ $? -eq 0 ] && [ $# -gt 0 ]; then
     echo "Compile ANTLR-generated code..."
-    javac -cp $antlr_path/antlr-4.7-complete.jar *.java
+    javac -cp $antlr_path/antlr-4.7.1-complete.jar *.java
 fi
