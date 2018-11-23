@@ -47,6 +47,14 @@ Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https:
 - Agents
 - once-Routinen
 
+### Elixir
+- The Actor Model (Shared nothing concurrent programming )
+- Abgrenzung von Erlang
+- Enumerables and Streams (lazy & async)
+- Comprehensions and into-option
+- Macros and Quotes
+- Pattern Matching
+
 ### Erlang
 - Pattern Matching
 - Data Types: Ports, Funs, Tuples, Lists, Maps
