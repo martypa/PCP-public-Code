@@ -4,6 +4,12 @@ Dieses Dokument enthält den Vorschlag der Coaches an pro Sprache zu behandelnde
 
 Hinweise, Fragen und Anmerkungen zu dieser Liste bitte in's [Ilias-Forum](https://elearning.hslu.ch/ilias/ilias.php?ref_id=3810782&cmd=showThreads&cmdClass=ilrepositorygui&cmdNode=vs&baseClass=ilrepositorygui).
 
+### Assembly Language
+- RISC vs. CISC
+- Basic Instructions
+- Zusammenspiel mit HW (Register, Speicheradressierung, usw.)
+- Code-Beispiele für min. einen konkreten RISC-Prozessor
+
 ### Clojure
 - immutability and representation of state
 - concurrency & software transactional memory
