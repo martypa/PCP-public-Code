@@ -24,7 +24,17 @@ public class StreamAndLambdaDemosTest {
     @Ignore
     public void testDoDemo1() {
         instance.doDemo1();
-        fail("The test case is a prototype.");
+
+
+        String a = "a";
+        String b = "b;";
+        swap(a, b);
+
+    }
+
+    private void swap(String a, String b) {
+        a = "hallo";
+        // ajklsdfjlksdajklfkldsjkls
     }
 
     @Ignore
@@ -51,10 +61,9 @@ public class StreamAndLambdaDemosTest {
         fail("The test case is a prototype.");
     }
 
-    @Ignore
+    @Test
     public void testDoInfiniteStreams() {
-        instance.doInfiniteStreams();
-        fail("The test case is a prototype.");
+        assertEquals(0.5f, instance.doInfiniteStreams(), 0.1);
     }
 
     @Ignore

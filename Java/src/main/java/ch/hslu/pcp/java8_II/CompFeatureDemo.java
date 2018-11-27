@@ -7,6 +7,7 @@
 package ch.hslu.pcp.java8_II;
 
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 
 public class CompFeatureDemo {
 
