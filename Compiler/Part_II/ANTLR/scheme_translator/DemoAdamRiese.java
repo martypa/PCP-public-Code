@@ -13,8 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package ch.hslu.pcp.compiler;
+
 import java.io.IOException;
-import org.antlr.v4.runtime.ANTLRInputStream;
+import org.antlr.v4.runtime.CharStream;
+import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
@@ -35,8 +38,8 @@ public final class DemoAdamRiese {
         if (args.length > 1) {
             trace = args[1].contains("-trace");
         }
-        // create a CharStream that reads from args[0]
-        ANTLRInputStream input = new ANTLRInputStream(args[0]);
+        // create a CharStream that reads a string from args[0]
+        CharStream input = CharStreams.fromString(args[0]);
         // create a lexer that feeds off of input CharStream
         AdamRieseSchemeLexer lexer = new AdamRieseSchemeLexer(input);
         // create a buffer of tokens pulled from the lexer

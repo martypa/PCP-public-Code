@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package ch.hslu.pcp.compiler;
 
 /**
  * Transforms addition, subtraction and multiplication operations into 
