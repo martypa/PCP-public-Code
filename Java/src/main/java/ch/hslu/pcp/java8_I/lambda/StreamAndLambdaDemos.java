@@ -22,8 +22,7 @@ public class StreamAndLambdaDemos {
     public String doIntro() {
         String result = "";
         IntStream s = IntStream.generate(() -> 5);
-        Optional<String> allNames = Arrays.asList("Hansjörg", "Marc", "Roger")
-                .stream()
+        Optional<String> allNames = Stream.of("Hansjörg", "Marc", "Roger")
                 .filter(name -> name.length() > 4)
                 .reduce((a, b) -> a + ", " + b);
         if (allNames.isPresent()) {
@@ -33,14 +32,19 @@ public class StreamAndLambdaDemos {
     }
 
     public void doDemo1() {
-
+        int c = 7;
         // First example of a lambda
-        MyBinaryIntOperator intLambda = (x, y) -> x + y;
+        MyBinaryIntOperator intLambda =
+                (x, y) -> {
+            int xcv = 8 + c;
+            return x + y;
+        };
 
         // Before Java 8
         MyBinaryIntOperator sameIntLambdaOldSchool = new MyBinaryIntOperator() {
             @Override
             public int calc(int a, int b) {
+                int abc = c + 9;
                 return a + b;
             }
         };

@@ -22,7 +22,6 @@ public class CollectionForEachAndStreamDemoTest {
         System.out.println("main");
         String[] args = null;
         CollectionForEachAndStreamDemo.main(args);
-        // TODO review the generated test code and remove the default call to fail.
         assertTrue("Main methods should run without failure.", true);
     }
 
