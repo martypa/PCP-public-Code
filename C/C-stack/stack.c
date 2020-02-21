@@ -63,3 +63,19 @@ void print(stack s) {
         printf("print - Stack is empty\n");
     }
 }
+
+
+isEmpty(stack s){
+    if (s.index > STACK_EMPTY_INDEX) {
+        return 0;
+    } else{
+        return 1;
+    }
+
+}
+
+size(stack s){
+    return s.index+1;
+}
+
+

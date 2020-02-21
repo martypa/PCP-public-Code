@@ -23,6 +23,8 @@ stack push(element e, stack s);
 element top(stack s);
 stack pop(stack s);
 void print(stack s);
+isEmpty(stack s);
+size(stack s);
 
 #endif	/* STACK_H */
 
