@@ -50,3 +50,6 @@ Java/nb-configuration.xml
 Java/release.properties
 Java/pom.xml.releaseBackup
 Java/pom.xml.tag
+
+
+.idea/*
